@@ -14,9 +14,10 @@ How to execute program:
     7. Run the script with the play button. The database is now setup.
 
   Running the program with IntelliJ IDEA:
-    1. Ensure IntelliJCE is installed.
+    1. Ensure IntelliJ IDEA CE is installed.
     2. Open IntelliJ, then click file and then open.
-    3. When asked "open as project?" choose yes.
-    4. In the Main.java file, ensure that the String user and String password variables match your username and password of your PostgreSQL server respectively.
-    5. Run the program with coverage by clicking the 3 dots at the top right and selecting "Run 'Main' with Coverage"
-    6. The provided tests will run. PLEASE NOTE: If you wish to correctly rerun the tests again, you must input the following command into the query tool on pgAdmin4 in the Assignment 3 database in order to reset the sequence counter: ALTER SEQUENCE students_student_id_seq RESTART WITH 4;
+    4. Select the Submission folder to open.
+    5. When asked "open as project?" choose yes.
+    6. In the Main.java file, ensure that the String user and String password variables match your username and password of your PostgreSQL server respectively.
+    7. Run the program with coverage by clicking the 3 dots at the top right and selecting "Run 'Main' with Coverage"
+    8. The provided tests will run. PLEASE NOTE: If you wish to correctly rerun the tests again, you must input the following command into the query tool on pgAdmin4 in the Assignment 3 database in order to reset the sequence counter: ALTER SEQUENCE students_student_id_seq RESTART WITH 4;
